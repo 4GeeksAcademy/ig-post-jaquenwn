@@ -3,35 +3,34 @@
 /*cuerpo completo */
 
 body{
-  background: black);
-  text-align: center;
+  background-color: black;
+  font-family: Roboto;
   align-items: center;
   justify-content: center;
-  font-family: Roboto;
 }
 
 .post{
   background-color: white;
   width: 80%;
   max-width: 600px;
-  height:100vh;
   margin: auto;
-  align-items: center;
-  justify-content: center;
   overflow: hidden;
 }
-
+.post-img{
+  overflow: hidden;
+}
 /*header*/
 .post-header{
-    padding: auto;
+
     display: flex;
     
 }
 .header-2{
     width: 75%;
 }
-h1{
-  font-size: small;
+h1, p{
+  font-size: 10px;
+  text-align: left;
 }
 
 /*iconos*/
